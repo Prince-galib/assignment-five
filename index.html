@@ -28,11 +28,15 @@
                 </div>
                 <div class="navbar-end">
                   <img src="assets/coin.png" alt="Logo">
-                  <div id="" class="font-bold">1000 BDT</div>
+                  <div id="main-balance" class="font-bold">10000 BDT</div>
                 </div>
               </div>
         </nav>
         <section>
+          <div class="flex flex-row justify-center gap-4 mt-8">
+            <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Donation</button>
+            <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">History</button>
+          </div>
           <div>
               <div class="hero bg-base-200 min-h-screen">
                 <div class="hero-content flex-col lg:flex-row">
@@ -40,9 +44,10 @@
                     src="assets/noakhali.png"
                     class="max-w-sm rounded-lg shadow-2xl" />
                   <div>
-                    <div  id="donate-account-balance" class=" flex flex-row">
+                    <div class=" flex flex-row gap-1">
                       <img src="assets/coin.png" alt="Logo">
-                      <div class="font-bold">500 BDT</div>
+                      <div   id="donate-account-balance"  class="font-bold">500</div>
+                      <h5 class="font-bold">BDT</h5>
                     </div>
                     <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
                     <p class="py-6">
@@ -63,5 +68,6 @@
     </main>
     <script src="js/utilities.js"></script>
     <script src="js/donation.js"></script>
+    <script src="js/donateMoney.js"></script>
 </body>
 </html>
