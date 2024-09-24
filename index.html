@@ -8,6 +8,59 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <main>
+        <nav>
+            <div class="navbar bg-base-100 justify-between">
+                <div class="navbar-start dropdown">
+                    <div tabindex="0" role="button" class="btn m-1">Blog</div>
+                    <div
+                      tabindex="0"
+                      class="dropdown-content card card-compact bg-primary text-primary-content z-[1] w-64 p-2 shadow">
+                      <div class="card-body">
+                        <h3 class="card-title">Card title!</h3>
+                        <p>you can use any element as a dropdown.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="navbar-center">
+                  <img src="assets/logo.png" alt="">
+                  <a class="text-xl font-bold">Donate Bangladesh</a>
+                </div>
+                <div class="navbar-end">
+                  <img src="assets/coin.png" alt="Logo">
+                  <div id="account-balance" class="font-bold">1000 BDT</div>
+                </div>
+              </div>
+        </nav>
+        <section>
+          <div>
+              <div class="hero bg-base-200 min-h-screen">
+                <div class="hero-content flex-col lg:flex-row">
+                  <img
+                    src="assets/noakhali.png"
+                    class="max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <div class="btn btn-wide flex flex-row">
+                      <img src="assets/coin.png" alt="Logo">
+                      <div id="account-balance" class="font-bold">0 BDT</div>
+                    </div>
+                    <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
+                    <p class="py-6">
+                      The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
+                    </p>
+                    <div class="flex flex-col gap-2">
+                      <input
+                      type="text"
+                      placeholder="Write Donation Amount"
+                      class="input input-bordered input-md w-full" />
+                      <button class="btn bg-[#B4F461]">Donate Now</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
     
 </body>
 </html>
