@@ -1,9 +1,3 @@
-// function getInputFieldValueById(){
-//     console.log('will get value')
-//     const donateMoney = document.getElementById('input-donate-money').value;
-//     return donateMoney;
-// }
-
 
 function getInputFieldValueById(id){
     const inputValue = document.getElementById(id).value;
